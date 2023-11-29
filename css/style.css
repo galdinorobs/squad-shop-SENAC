@@ -1,0 +1,156 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: roboto;
+}
+
+body {
+    background-color: #0E0D0ED1;
+}
+
+.top {
+    background-color: #000000;
+    height: 110px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo img {
+    width: 170px;
+    height: 64px;
+    border-radius: 16px;
+}
+
+.search input {
+    width: 404px;
+    height: 24px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.login {
+    margin-left: -300px;
+}
+
+.login p {
+    color: #E5E5E5;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.cart {
+    display: flex;
+    align-items: center;
+}
+
+.cart img {
+    width: 48px;
+}
+
+.cart p {
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.fa-magnifying-glass {
+    margin-left: -30px;
+}
+
+.menu {
+    background-color: #ffffff;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.menu ul {
+    display: flex;
+    list-style: none;
+    text-decoration: none;
+    justify-content: space-around;
+    align-items: center;
+    height: 58px;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: #646363;
+    font-weight: bold;
+}
+
+/*PRODUTOS*/
+
+.produtos h1 {
+    color: #E5E5E5;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 23px;
+    font-weight: bold;
+}
+
+.produtos-info {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.produtos-info img {
+    width: 70%;
+}
+
+.promocoes {
+    display: flex;
+    justify-content: center;
+}
+
+.promocoes img {
+    width: 300px;
+    height: 260px;
+    padding: 50px;
+    margin-top: 50px;
+}
+
+/*PROMOCOES SEMANA*/
+
+.promocoes-semana h2 {
+    color: #E5E5E5;
+    text-align: center;
+    font-size: 35px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.precos {
+    display: flex;
+    justify-content: space-around;
+}
+
+.parcelas img {
+    margin-top: 20px;
+}
+
+.parcelas p {
+    background-color: white;
+    padding: 20px;
+    line-height: 160.687%;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+footer {
+    background-color: #000000;
+    margin-top: 20px;
+}
+
+.footer-info {
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer-info ul {
+    margin: 40px 0;
+    color: #ffffff;
+    list-style: none;
+    line-height: 160.687%
+}
